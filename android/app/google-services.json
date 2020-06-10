@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008671233885",
+    "firebase_url": "https://its-in-the-hole.firebaseio.com",
+    "project_id": "its-in-the-hole",
+    "storage_bucket": "its-in-the-hole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008671233885:android:f51f10e363d172620bfab4",
+        "android_client_info": {
+          "package_name": "com.ots.its_in_the_hole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008671233885-77otk7qhti1bvq55vmkmjou63c11cajf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ots.its_in_the_hole",
+            "certificate_hash": "9401615dede14be418677f95578db978a0873157"
+          }
+        },
+        {
+          "client_id": "1008671233885-43nt0j48cuvk97tttgsu30i6k2ccvh0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXZvq0YVhh7zfN_EkTszIx6BstfG3rmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008671233885-43nt0j48cuvk97tttgsu30i6k2ccvh0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
