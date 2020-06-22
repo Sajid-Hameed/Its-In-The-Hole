@@ -41,6 +41,7 @@ target 'Runner' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
 
+
   copied_flutter_dir = File.join(__dir__, 'Flutter')
   copied_framework_path = File.join(copied_flutter_dir, 'Flutter.framework')
 

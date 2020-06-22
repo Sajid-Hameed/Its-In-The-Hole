@@ -11,6 +11,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:page_transition/page_transition.dart';
 import '../appstate.dart';
 import 'LoginScreen.dart';
+import 'package:apple_sign_in/apple_sign_in.dart';
+
 
 class SplashScreen extends StatefulWidget
 {
@@ -92,6 +94,7 @@ class SplashScreenState extends State<SplashScreen> with TickerProviderStateMixi
         end: 32.0
     ).animate(_scale2Controller)..addStatusListener((status) {
       if (status == AnimationStatus.completed) {
+
         if(user != null){
           // wrong call in wrong place!
           Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: SideBarLayout()));
